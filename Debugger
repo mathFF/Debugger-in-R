@@ -1,0 +1,126 @@
+{
+ function (fun, text = "", condition = NULL, signature = NULL) 
+ {
+     if (is.null(signature)) 
+         .Internal(debug(fun, text, condition))
+     else if (requireNamespace("methods")) 
+         methods::.debugMethod(fun, text, condition, signature, 
+             once = FALSE)
+     else stop("failed to load the methods package for debugging by signature")
+ }
+ debug (norm, sum, eval)
+ consoleOutput = TRUE
+
+}
+overwrite = TRUE
+{
+ function (fun, text = "", condition = NULL, signature = NULL) 
+ {
+     if (is.null(signature)) 
+         .Internal(debug(fun, text, condition))
+     else if (requireNamespace("methods")) 
+         methods::.debugMethod(fun, text, condition, signature, 
+             once = FALSE)
+     else stop("failed to load the methods package for debugging by signature")
+ }
+ debug (solve, get, find)
+ consoleOutput = TRUE
+
+}
+overwrite = TRUE
+{
+ function (fun, text = "", condition = NULL, signature = NULL) 
+ {
+     if (is.null(signature)) 
+         .Internal(debug(fun, text, condition))
+     else if (requireNamespace("methods")) 
+         methods::.debugMethod(fun, text, condition, signature, 
+             once = FALSE)
+     else stop("failed to load the methods package for debugging by signature")
+ }
+ debug (seq, var, integer)
+ consoleOutput = TRUE
+
+}
+overwrite = TRUE
+{
+ function (fun, text = "", condition = NULL, signature = NULL) 
+ {
+     if (is.null(signature)) 
+         .Internal(debug(fun, text, condition))
+     else if (requireNamespace("methods")) 
+         methods::.debugMethod(fun, text, condition, signature, 
+             once = FALSE)
+     else stop("failed to load the methods package for debugging by signature")
+ }
+ debug (line, curve, polygon)
+ consoleOutput = TRUE
+
+}
+overwrite = TRUE
+{
+ function (fun, text = "", condition = NULL, signature = NULL) 
+ {
+     if (is.null(signature)) 
+         .Internal(debug(fun, text, condition))
+     else if (requireNamespace("methods")) 
+         methods::.debugMethod(fun, text, condition, signature, 
+             once = FALSE)
+     else stop("failed to load the methods package for debugging by signature")
+ }
+ debug (length, exp, log)
+ consoleOutput = TRUE
+
+}
+overwrite = TRUE
+{
+ function (fun, text = "", condition = NULL, signature = NULL) 
+ {
+     if (is.null(signature)) 
+         .Internal(debug(fun, text, condition))
+     else if (requireNamespace("methods")) 
+         methods::.debugMethod(fun, text, condition, signature, 
+             once = FALSE)
+     else stop("failed to load the methods package for debugging by signature")
+ }
+ debug (start, stop, end)
+ consoleOutput = TRUE
+
+}
+overwrite = TRUE
+{
+ function (fun, text = "", condition = NULL, signature = NULL) 
+ {
+     if (is.null(signature)) 
+         .Internal(debug(fun, text, condition))
+     else if (requireNamespace("methods")) 
+         methods::.debugMethod(fun, text, condition, signature, 
+             once = FALSE)
+     else stop("failed to load the methods package for debugging by signature")
+ }
+ debug (load, print, quit)
+ consoleOutput = TRUE
+
+}
+overwrite = TRUE
+{
+ function (fun, text = "", condition = NULL, signature = NULL) 
+ {
+     if (is.null(signature)) 
+         .Internal(debug(fun, text, condition))
+     else if (requireNamespace("methods")) 
+         methods::.debugMethod(fun, text, condition, signature, 
+             once = FALSE)
+     else stop("failed to load the methods package for debugging by signature")
+ }
+ debug (transform, sign)
+ consoleOutput = TRUE
+
+}
+{
+overwrite
+end = TRUE
+
+}
+
+
